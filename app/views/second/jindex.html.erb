@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+     <title><%= @title %></title>
+  <%= stylesheet_link_tag "css/StyleSheet.css" %>
+  <%=javascript_include_tag "jquery-1.6.4.js","jquery-latest.js"%>
+  <%= csrf_meta_tag %>
+    
+ 
+</head>
+<body>
+<div id="block2">
+<div class="searchbg">
+<input type="text" value="search"/></div>
+
+
+
+<div id="leftnav">
+<UL style="none">
+<li> <a href="#">Link1</a></li>
+<li> <a href="#">Link2</a></li>
+<li> <a href="#">Link3</a></li>
+<li> <a href="#">Link4</a></li>
+<li> <a href="#">Link5</a></li>
+<!--<li><a href="#">Reach Us</li>-->
+
+</UL>
+
+</div>
+
+
+<a href="#"><div class="facebook"></div></a>
+<a href="#"><div class="linkedin"></div></a>
+<a href="#"><div class="twitter"></div></a>
+<a href="#"><div class="youtube_icon"></div></a>
+
+
+ <a href="#"><div class="download_icon"></div></a>
+<a href="#"><div class="reachus_icon"></div></a>  
+
+
+<div class="flag"><%= image_tag("flagindia.gif") %> &nbsp;India&nbsp;&nbsp;&nbsp;&nbsp;<%= image_tag("usflag.gif") %>&nbsp;USA
+</div>
+<div class="footer">
+<center><a href="#">Site Map</a>    |    <a href="#">Privacy Policy</a>    |    <a href="#">Tearms of use</a>      |    © 2011 SM NetServ Technologies Pvt. Ltd. All rights reserved</div></center>
+<div class="welcomesigninregister">    Welcome [ SM Netserv Sign in / Register ]  </div>
+
+
+
+
+
+  <%= yield %>
+
+</body>
+</html>

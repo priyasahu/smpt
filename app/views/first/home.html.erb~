@@ -1,0 +1,42 @@
+<!DOCTYPE html >
+<html>
+
+    
+ 
+<head>
+  <title><%= @title %></title>
+  <%= stylesheet_link_tag "css/StyleSheet.css" %>
+  <%=javascript_include_tag "jquery-1.6.4.js","jquery-latest.js"%>
+  <%= csrf_meta_tag %>
+</head>
+ 
+
+<body>
+<div id="main_comeandsoaring">
+<div class="searchbg">
+<input type="text" value="search"/></div>
+<div class="risingabovetext">
+<span style="font-family:Myriad Pro; font-size:20pt; color:#303069;"><a href="/second/index"> Rising above the<br /> 
+level playing field</span><br />
+
+<span style="font-family:Myriad Pro; font-size:12pt; color:#404040;">Go beyond the ordinary, do the new, set aims high for the sky is not the limit.
+<br />Come and soar with us</span>
+
+</div>
+
+
+
+
+<div class="flag"><%= image_tag("flagindia.gif") %> &nbsp;India&nbsp;&nbsp;&nbsp;&nbsp;<%= image_tag("usflag.gif") %>&nbsp;USA
+</div>
+<div class="footer">
+<center><a href="#">Site Map</a>    |    <a href="#">Privacy Policy</a>    |    <a href="#">Tearms of use</a>      |    © 2011 SM NetServ Technologies Pvt. Ltd. All rights reserved</div></center>
+<div class="welcomesigninregister">    Welcome [ SM Netserv Sign in / Register ]  </div>
+
+     </div>
+
+
+
+  <%= yield %>
+</body>
+</html>

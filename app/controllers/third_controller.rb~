@@ -1,0 +1,51 @@
+class ThirdController < ApplicationController
+	
+	layout 'ThirdPage'
+  def wer
+  	  
+    @user = User.find(1)
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.xml  { render :xml => @user }
+    end
+  
+  end
+  
+  def cuttingedge
+   @user = User.find(2)
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.xml  { render :xml => @user }
+    end
+  end
+  
+   def soaringwithus
+   @user = User.find(3)
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.xml  { render :xml => @user }
+    end
+  end
+  
+   def netservsociety
+   @user = User.find(4)
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.xml  { render :xml => @user }
+    end
+  end
+  
+   def social
+   @user = User.find(5)
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.xml  { render :xml => @user }
+    end
+  end
+
+end

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+     <title><%= @title %></title>
+  <%= stylesheet_link_tag "css/StyleSheet.css" %>
+  <%=javascript_include_tag "jquery-1.6.4.js","jquery-latest.js"%>
+  <%= csrf_meta_tag %>
+    
+ 
+</head>
+<body>
+<div id="block2">
+<div class="searchbg">
+<input type="text" value="search"/></div>
+
+
+
+<div id="leftnav">
+<UL style="none">
+<li> <a href="#">Link1</a></li>
+<li> <a href="#">Link2</a></li>
+<li> <a href="#">Link3</a></li>
+<li> <a href="#">Link4</a></li>
+<li> <a href="#">Link5</a></li>
+<!--<li><a href="#">Reach Us</li>-->
+
+</UL>
+
+</div>
+
+
+<a href="#"><div class="facebook"></div></a>
+<a href="#"><div class="linkedin"></div></a>
+<a href="#"><div class="twitter"></div></a>
+<a href="#"><div class="youtube_icon"></div></a>
+
+
+ <a href="#"><div class="download_icon"></div></a>
+<a href="#"><div class="reachus_icon"></div></a>  
+
+
+
+
+<div class="flag"><%=image_tag("flagindia.gif")%> &nbsp;India&nbsp;&nbsp;&nbsp;&nbsp;<%=image_tag("usflag.gif")%>&nbsp;USA
+</div>
+<div class="footer">
+<center><a href="#">Site Map</a>    |    <a href="#">Privacy Policy</a>    |    <a href="#">Tearms of use</a>      |    © 2011 SM NetServ Technologies Pvt. Ltd. All rights reserved</div></center>
+<div class="welcomesigninregister">    Welcome [ SM Netserv Sign in / Register ]  </div>
+
+
+
+<div class="content">
+<span style="font-family:Myriad Web Pro; font-size:20pt; color:#865aa6">Heading</span><br />
+We don’t do different things, nor do we do things differently. We do the new. We Innovate. But in here lies our key differentiator – we enjoy innovating. And we can do so, for we have an unbridled, towering view from the top. Which enables us to see, think and go beyond the ordinary. It gives us that added dimension which enables us to go the extra mile, from which you could benefit. For its all about how you can win from us, and with us.</div>
+
+<div class="back_btn"><a href="#"><%=image_tag("back_btn.png")border="0"%></a></div>
+<div class="home_btn"><a href="index.htm"><%=image_tag("home_icon.png") border="0"%></a></div>
+
+
+</div>
+  <%= yield %>
+
+</body>
+</html>

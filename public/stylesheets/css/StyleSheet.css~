@@ -1,0 +1,512 @@
+﻿body
+{
+	background-color:#000000;
+	margin:0px;
+	
+}
+
+#main
+{   
+	margin:0 auto; 
+	width:1016px;
+    height:768px;
+	background-image:url("../images/background_base.jpg");
+	background-repeat:no-repeat;
+	
+}
+
+
+
+#main_we_are
+{   
+	margin:0 auto; 
+	width:1016px;
+    height:768px;
+	background-image:url("../images/we_are_new	.jpg");
+	background-repeat:no-repeat;
+}
+
+.block1
+{ 
+	
+	width:212px;
+    height:320px;
+	background-image:url("../images/block1.png");
+	background-repeat:no-repeat;
+	margin-left:352px;
+	margin-top:196px;
+	position:absolute;
+}
+
+.block1tbutton
+{ 
+	
+	width:212px;
+    height:175px;
+	background-image:url("../images/block1tbutton.png");
+	background-repeat:no-repeat;
+	margin-left:352px;
+	margin-top:196px;
+	position:absolute;
+	z-index:1
+	
+}
+
+
+.block2
+{ 
+	
+	width:182px;
+    height:177px;
+	background-image:url("../images/block2.png");
+	background-repeat:no-repeat;
+	margin-left:376px;
+	margin-top:355px;
+	position:absolute;
+}
+
+
+
+.block2tbutton
+{ 
+	
+	width:121px;
+    height:177px;
+	background-image:url("../images/block2button.png");
+	background-repeat:no-repeat;
+	margin-left:376px;
+	margin-top:353px;
+	position:absolute;
+	z-index:2;
+}
+
+
+.block3
+{ 
+	
+	width:145px;
+    height:150px;
+	background-image:url("../images/block3.png");
+	background-repeat:no-repeat;
+	margin-left:291px;
+	margin-top:390px;
+	position:absolute;
+}
+
+
+
+.block3tbutton
+{ 
+	
+	width:145px;
+    height:78px;
+	background-image:url("../images/block3button.png");
+	background-repeat:no-repeat;
+	margin-left:270px;
+	margin-top:390px;
+	position:absolute;
+	z-index:3;
+}
+
+.block4
+{ 
+	
+	width:113px;
+    height:71px;
+	background-image:url("../images/block4.png");
+	background-repeat:no-repeat;
+	margin-left:403px;
+	margin-top:502px;
+	position:absolute;
+}
+
+.block4tbutton
+{ 
+	
+	width:113px;
+    height:71px;
+	background-image:url("../images/block4button.png");
+	background-repeat:no-repeat;
+	margin-left:403px;
+	margin-top:502px;
+	position:absolute;
+	z-index:1;
+}
+
+
+
+
+.block5
+{ 
+	
+	width:129px;
+    height:136px;
+	background-image:url("../images/block5.png");
+	background-repeat:no-repeat;
+	margin-left:480px;
+	margin-top:458px;
+	position:absolute;
+}
+
+
+
+.block5tbutton
+{ 
+	
+	width:129px;
+    height:88px;
+	background-image:url("../images/block5button.png");
+	background-repeat:no-repeat;
+	margin-left:480px;
+	margin-top:458px;
+	position:absolute;
+}
+
+
+
+.block6
+{ 
+	
+	width:72px;
+    height:171px;
+	background-image:url("../images/block6.png");
+	background-repeat:no-repeat;
+	margin-left:546px;
+	margin-top:377px;
+	position:absolute;
+}
+
+.block6tbutton
+{ 
+	
+	width:72px;
+    height:98px;
+	background-image:url("../images/block6button.png");
+	background-repeat:no-repeat;
+	margin-left:546px;
+	margin-top:377px;
+	position:absolute;
+}
+
+.block7
+{ 
+	
+	width:65px;
+    height:90px;
+	background-image:url("../images/block7.png");
+	background-repeat:no-repeat;
+	margin-left:610px;
+	margin-top:488px;
+	position:absolute;
+}
+.block8
+{ 
+	
+	width:40px;
+    height:53px;
+	background-image:url("../images/facebook_icon.png");
+	background-repeat:no-repeat;
+	margin-left:728px;
+	margin-top:577px;
+	position:absolute;
+}
+
+.block9
+{ 
+	
+	width:39px;
+    height:51px;
+	background-image:url("../images/linkedin_icon.png");
+	background-repeat:no-repeat;
+	margin-left:768px;
+	margin-top:569px;
+	position:absolute;
+}
+
+.block10
+{ 
+	
+	width:39px;
+    height:49px;
+	background-image:url("../images/twitter_icon.png");
+	background-repeat:no-repeat;
+	margin-left:809px;
+	margin-top:560px;
+	position:absolute;
+}
+
+.block11
+{ 
+	
+	width:67px;
+    height:53px;
+	background-image:url("../images/youtube_icon.png");
+	background-repeat:no-repeat;
+	margin-left:850px;
+	margin-top:547px;
+	position:absolute;
+}
+
+.flag
+{
+	margin-top:710px;
+	margin-left:54px;
+	position:absolute;
+	font-family:Arial;
+	font-size:7pt;
+	color:#ffffff;
+}	
+
+
+.searchbg input
+{
+	margin-top:2px;
+	margin-left:850px;
+	position:absolute;
+	font-family:Arial;
+	font-size:10pt;
+	color:#000000;
+    background-image:url("../images/search_bg_new.png");
+    background-repeat:no-repeat;
+    width:129PX;
+    height:12PX;
+    
+
+}
+
+
+.footer
+{
+	margin-top:747px;
+	position:absolute;
+	width:1016px;
+	height:30px;
+	font-family:Arial;
+	font-size:8pt;
+}
+
+
+.footer a
+{
+	font-family:Arial;
+	font-size:8pt;
+	color:#8c2727;
+	text-decoration:none;
+	
+}
+
+
+.footer a:hover
+{
+	font-family:Arial;
+	font-size:8pt;
+	color:#8c2727;
+	text-decoration:undeline;
+	
+}
+
+
+.welcomesigninregister
+{
+	margin-top:710px;
+	margin-left:760px;
+	position:absolute;
+	font-family:Arial;
+	font-size:8pt;
+	color:#ffffff;
+	text-decoration:undeline;
+}
+
+
+.facebook
+{
+	
+    margin-top:580px;
+	margin-left:689px;
+	position:absolute;
+	background-image:url("../images/facebook_icon.png");
+    background-repeat:no-repeat;
+    width:40PX;
+    height:53PX;
+}
+
+.linkedin
+{
+	
+    margin-top:571px;
+	margin-left:729px;
+	position:absolute;
+	background-image:url("../images/linkedin_icon.png");
+    background-repeat:no-repeat;
+    width:39PX;
+    height:51PX;
+}
+
+
+
+.twitter
+{
+	
+    margin-top:561px;
+	margin-left:770px;
+	position:absolute;
+	background-image:url("../images/twitter_icon.png");
+    background-repeat:no-repeat;
+    width:39PX;
+    height:49PX;
+}
+
+.youtube_icon
+{
+	
+    margin-top:548px;
+	margin-left:810px;
+	position:absolute;
+	background-image:url("../images/youtube_icon.png");
+    background-repeat:no-repeat;
+    width:67PX;
+    height:53PX;
+}
+
+
+
+
+.download_icon
+{
+	
+    margin-top:533px;
+	margin-left:919px;
+	position:absolute;
+	background-image:url("../images/download_icon.png");
+    background-repeat:no-repeat;
+    width:39PX;
+    height:49PX;
+}
+
+.reachus_icon
+{
+	
+    margin-top:525px;
+	margin-left:959px;
+	position:absolute;
+	background-image:url("../images/reachus_icon.png");
+    background-repeat:no-repeat;
+    width:39PX;
+    height:49PX;
+}
+
+
+
+
+#leftnav
+{
+	margin-left:250px;
+	margin-top:180px;
+	position:absolute;
+}
+
+
+#leftnav UL
+{
+	text-decoration:none;
+	font-family:Myriad Web Pro;
+	font-size:13pt;
+	color:#6161610;
+}
+
+
+#leftnav UL li
+{
+	text-decoration:none;
+	font-family:Myriad Web Pro;
+	color:#6161610;
+	list-style-type:none;
+	
+}
+
+#leftnav UL li a
+{
+	text-decoration:none;
+	font-family:Myriad Web Pro;
+	color:#616161;
+	list-style-type:none;
+}
+
+
+#leftnav UL li a:hover
+{
+	text-decoration:none;
+	font-family:Myriad Web Pro;
+	color:#f17b25;
+	list-style-type:none;
+}
+
+
+#leftnav UL li a:active
+{
+	text-decoration:none;
+	font-family:Myriad Web Pro;
+	color:#f17b25;
+	list-style-type:none;
+}
+
+
+
+.content
+{
+	margin-left:508px;
+	margin-top:264px;
+	position:absolute;
+	font-family:Calibri;
+	font-size:10pt;
+	color:#333239;
+	width:300px;
+	height:135PX;
+}
+.back_btn
+{
+	margin-left:438px;
+	margin-top:510px;
+	position:absolute;
+	width:43px;
+	height:33PX;
+}
+
+.home_btn
+{
+	margin-left:488px;
+	margin-top:515px;
+	position:absolute;
+	width:43px;
+	height:33PX;
+}
+
+
+#main_comeandsoaring
+{   
+	margin:0 auto; 
+	width:1016px;
+    height:768px;
+	background-image:url("../images/comeandsoaring.jpg");
+	background-repeat:no-repeat;
+}
+
+
+.risingabovetext
+{
+	margin-left:373px;
+	margin-top:389px;
+	position:absolute;
+	width:283px;
+	height:88px;
+	
+}
+	
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+<div class="content">
+<span style="font-family:Myriad Web Pro; font-size:20pt; color:#f17b25">We are</span><br />
+<%= @user.content %> 
+</div>
+
+ <%= submit_tag "", :value => "► Save & Proceed", :class => "submit_button" %>
+ 
+
+          <div class="text-input-bg"></div>
+
+       

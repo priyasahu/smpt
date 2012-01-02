@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    
+    
+<head>
+  <title><%= @title %></title>
+  <%= stylesheet_link_tag "css/StyleSheet.css" %>
+  <%=javascript_include_tag "jquery-1.6.4.js","jquery.min.js","jquery-ui.min.js"%>
+    <%= csrf_meta_tag %>
+</head>
+
+<body>
+<div id="main_we_are3">
+<div class="searchbg">
+<input type="text" value="search"/></div>
+
+
+
+
+
+<div id="leftnav">
+<UL style="none">
+<li> <a href="/third/wer">Mobile Engineering</a></li>
+<li> <a href="/third/cuttingedge"> Mobile Web Products</a></li>
+<li> <a href="/third/soaringwithus">Mobile Applications</a></li>
+<li> <a href="/third/netservsociety">Social Media</a></li>
+<li> <a href="/third/social">SoNET</a></li>
+<!--<li><a href="#">Reach Us</li>-->
+
+</UL>
+
+</div>
+
+
+
+<a href="http://www.facebook.com/"><div class="facebook"></div></a>
+<a href="http://www.linkedin.com/"><div class="linkedin"></div></a>
+<a href="http://twitter.com/"><div class="twitter"></div></a>
+<a href="http://www.youtube.com/"><div class="youtube_icon"></div></a>
+
+<a href="#"><div class="download_icon"></div></a>
+<a href="#"><div class="reachus_icon"></div></a>
+<div class="flag"><%= image_tag("flagindia.gif") %> &nbsp;India&nbsp;&nbsp;&nbsp;&nbsp;<%= image_tag("usflag.gif") %>&nbsp;USA
+</div>
+<div class="footer">
+<center><a href="#">Site Map</a>    |    <a href="#">Privacy Policy</a>    |    <a href="#">Tearms of use</a>      |    © 2011 SM NetServ Technologies Pvt. Ltd. All rights reserved</div></center>
+<div class="welcomesigninregister">    Welcome [ SM Netserv Sign in / Register ]  </div>
+
+
+
+
+  <%= yield %>
+
+
+
+<div class="back_btn"><a href="/second/index"><%= image_tag("back_btn.png") %></a></div>
+<div class="home_btn"><a href="/first/home"><%= image_tag("home_icon.png") %></a></div>
+</body>
+</html>
+
+
+
+
+
+
+

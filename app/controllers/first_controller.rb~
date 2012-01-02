@@ -1,0 +1,6 @@
+class FirstController < ApplicationController
+  def home
+  	  @title = "home"
+  end
+
+end
